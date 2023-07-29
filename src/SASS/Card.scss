@@ -1,0 +1,75 @@
+.card {
+    border-radius: 12px;
+    height: 100%;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    -webkit-backdrop-filter: blur(0.75px);
+    backdrop-filter: blur(0.75px);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px black;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+
+    * {
+        margin: 0px;
+        overflow: hidden;
+        padding: 2px;
+    }
+
+    .title {
+        height: 70px;
+        border-radius: 12px 12px 0 0;
+        text-align: center;
+        background: black;
+        color: azure;
+        font-size: 26px;
+        font-weight: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mid {
+        text-align: center;
+        background: rgb(72, 72, 72);
+        color: azure;
+
+        .subtitle {
+            font-size: 13px;
+        }
+
+        .time {
+            font-size: 13px;
+        }
+    }
+
+    .info {
+        padding: 3px;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .info-text {
+        padding-top: 0px;
+    }
+
+    .info-text::before {
+        float: left;
+        margin-right: 5px;
+        color: black;
+        content: '';
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url('../assets/tick.svg') no-repeat center center;
+    }
+
+}
+
+.card:hover {
+    box-shadow: 4px 4px black;
+    transform: scale(1.04);
+    z-index: 2;
+}

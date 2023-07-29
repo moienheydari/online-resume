@@ -1,0 +1,1 @@
+.body{grid-area:body;width:100%;background:rgba(185,197,124,.35);-webkit-backdrop-filter:blur(0.75px);backdrop-filter:blur(0.75px);border:1px solid rgba(0,0,0,.4);display:grid;padding:25px;gap:15px;grid-template-columns:repeat(auto-fit, 370px);grid-auto-rows:260px;overflow:auto;justify-content:center;align-content:start}/*# sourceMappingURL=Body.min.css.map */
