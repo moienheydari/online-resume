@@ -15,40 +15,36 @@
         margin: 0px;
         overflow: hidden;
         padding: 2px;
+        transition: 0.5s;
     }
 
     .title {
+        padding: 3px;
         height: 70px;
+        width: 100%;
         border-radius: 12px 12px 0 0;
-        text-align: center;
         background: black;
-        color: azure;
-        font-size: 26px;
         font-weight: 1000;
+        color: azure;
+        font-size: calc(0.75rem + 0.8vw);
         display: flex;
-        align-items: center;
+        text-align: center;
         justify-content: center;
+        align-items: center;
     }
 
     .mid {
         text-align: center;
         background: rgb(72, 72, 72);
         color: azure;
-
-        .subtitle {
-            font-size: 13px;
-        }
-
-        .time {
-            font-size: 13px;
-        }
+        font-size: calc(0.12rem + 0.8vw);
+        padding: 4.5px;
     }
 
     .info {
         padding: 3px;
         text-align: justify;
-        font-size: 14px;
-        line-height: 16px;
+        font-size: calc(0.15rem + 0.8vw);
     }
 
     .info-text {
@@ -72,4 +68,37 @@
     box-shadow: 4px 4px black;
     transform: scale(1.04);
     z-index: 2;
+}
+
+
+@media (max-width: 1195px) {
+    .card {
+        .title {
+            font-size: calc(0.8rem + 0.8vw);
+        }
+
+        .mid {
+            font-size: calc(0.15rem + 0.8vw);
+        }
+
+        .info {
+            font-size: calc(0.25rem + 0.8vw);
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    .card {
+        .title {
+            font-size: calc(1rem + 0.8vw);
+        }
+
+        .mid {
+            font-size: calc(0.3rem + 0.8vw);
+        }
+
+        .info {
+            font-size: calc(0.45rem + 0.8vw);
+        }
+    }
 }

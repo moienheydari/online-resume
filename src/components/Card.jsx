@@ -3,7 +3,7 @@ import '../css/Card.min.css';
 import { ranGenTot } from '../RandomGen';
 
 export default function Card({ data }) {
-    const time = (data.time[1])?  `| ${data.time[0]} - ${data.time[1]}` : `| ${data.time[0]}`;
+    const time = (data.time[1]) ? `| ${data.time[0]} - ${data.time[1]}` : `| ${data.time[0]}`;
     return (
         <div className='card'>
             <p className='title'>{data.title}</p>
@@ -15,7 +15,7 @@ export default function Card({ data }) {
                 {data.info.map((e) => {
                     return (
                         <>
-                            <span className='info-text' key={ranGenTot()}>{e}</span> <br/> <br/>
+                            <span className='info-text' key={ranGenTot()}>{e}</span> <br /> <br />
                         </>
                     )
                 })}

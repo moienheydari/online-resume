@@ -9,6 +9,7 @@
     transition: 0.5s;
     
     * {
+        transition: 0.5s;
         margin: 0px;
         overflow: hidden;
         padding: 2px;
@@ -20,7 +21,7 @@
         text-align : center;
         background: black;
         color: azure;
-        font-size: 28px;
+        font-size: calc(1rem + 0.8vw);
         font-weight: 1000;
         display: flex;
         align-items: center;
@@ -35,7 +36,7 @@
         text-align : center;
         background: rgb(72, 72, 72);
         color: azure;
-        font-size: 18px;
+        font-size: calc(0.4rem + 0.8vw);
         border-radius: 0 0 12px 12px ;
         border: 1px solid rgb(0, 0, 0);
     }
@@ -45,4 +46,29 @@
 .card2:hover {
     transform: scale(1.04);
     z-index: 2;
+}
+
+
+@media (max-width: 1195px) {
+    .card2 {
+        .title {
+            font-size: calc(1.1rem + 0.8vw);
+        }
+
+        .mid {
+            font-size: calc(0.45rem + 0.8vw);
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    .card2 {
+        .title {
+            font-size: calc(1.4rem + 0.8vw);
+        }
+
+        .mid {
+            font-size: calc(0.6rem + 0.8vw);
+        }
+    }
 }

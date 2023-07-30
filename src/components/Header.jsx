@@ -23,8 +23,8 @@ export default function Header() {
             <Link to='/languages' className={`head-butt ${(active==='Languages') ? 'active' : ''}`} onClick={handleClick}>
                 Languages
             </Link>
-            <Link to='/awards' className={`head-butt ${(active==='Awards and Honors') ? 'active' : ''}`} onClick={handleClick}>
-                Awards and Honors
+            <Link to='/awards' className={`head-butt ${(active==='Honors') ? 'active' : ''}`} onClick={handleClick}>
+                Honors
             </Link>
             <Link to='/extra' className={`head-butt ${(active==='Extra') ? 'active' : ''}`} onClick={handleClick}>
                 Extra

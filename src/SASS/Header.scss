@@ -15,6 +15,7 @@
         color: azure;
         cursor: pointer;
         transition: 0.5s;
+        font-size: calc(0.7rem + 1vw);
     }
 
     .head-butt:hover {
@@ -31,3 +32,4 @@
         background: rgba(0, 73, 189, 0.2);
     }
 }
+
