@@ -52,7 +52,7 @@
             position: absolute;
             left: 50%;
             top: 33px;
-            translate: (-50%);
+            transform: translate(-50%);
         }
     }
 }
@@ -63,12 +63,14 @@
         .name {
             position: absolute;
             left: auto;
-            right: -100px;
+            right: 10px;
+            transform: translate(0);
         }
         .social-buttons {
             position: absolute;
             left: auto;
-            right: -108px;
+            right: 7px;
+            transform: translate(0);
         }
     }
 }
