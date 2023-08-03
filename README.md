@@ -38,7 +38,7 @@ The site can:
 ### Built with
 
 - [React](https://reactjs.org/) - JS library
-- signle data file structure
+- single data file structure
 - Semantic HTML5 markup
 - SASS
 - CSS Grid, Flexbox
