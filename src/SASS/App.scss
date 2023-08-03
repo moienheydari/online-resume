@@ -15,10 +15,12 @@
 
 @media (max-width: 780px) {
     .App {
-        grid-template-columns: 80px minmax(275px, 1fr);
-        grid-template-rows: 120px minmax(400px, 1fr);
+        min-height: 500px;
+        grid-template-columns: minmax(275px, 1fr);
+        grid-template-rows: 120px 50px 1fr;
         grid-template-areas:
-            'side side'
-            'head body';
+            'side'
+            'head'
+            'body';
     }
 }

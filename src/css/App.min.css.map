@@ -1,1 +1,1 @@
-{"version":3,"sources":["../SASS/App.scss"],"names":[],"mappings":"AAAA,KACI,gBAAA,CACA,YAAA,CACA,YAAA,CACA,YAAA,CACA,eAAA,CACA,+BAAA,CACA,0CAAA,CACA,2CACI,CAMR,yBACI,KACI,6CAAA,CACA,2CAAA,CACA,2CACI,CAAA","file":"App.min.css"}
+{"version":3,"sources":["../SASS/App.scss"],"names":[],"mappings":"AAAA,KACI,gBAAA,CACA,YAAA,CACA,YAAA,CACA,YAAA,CACA,eAAA,CACA,+BAAA,CACA,0CAAA,CACA,2CACI,CAMR,yBACI,KACI,gBAAA,CACA,wCAAA,CACA,iCAAA,CACA,wCACI,CAAA","file":"App.min.css"}
