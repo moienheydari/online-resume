@@ -68,6 +68,7 @@
             transform: translate(0);
             font-size: 26px;
         }
+
         .social-buttons {
             top: 35px;
             position: absolute;
@@ -77,13 +78,25 @@
             height: 45px;
             padding: 2px 5px;
         }
+
         .social-button {
             width: 35px;
             height: 35px;
             margin: 0 3px;
         }
+
         .social-buttons svg {
-          height: 17px;
+            height: 17px;
+        }
+    }
+}
+
+
+@media (max-width: 350px) {
+    .side {
+        .name {
+            font-size: 22px;
+            right: 20px;
         }
     }
 }
