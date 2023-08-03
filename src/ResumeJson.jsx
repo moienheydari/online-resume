@@ -10,7 +10,7 @@ export const resume = {
             title: 'Shahid Beheshti University of Medical Sciences',
             subtitle: 'Doctor of Medicine (M.D)',
             time: ['Nov 2020', 'Feb 2023'],
-            info: ['Scored 131/200 in the third year national exam of Basic Sciences']
+            info: ['Scored 115/200 in the third year national exam of Basic Sciences']
         },
         {
             title: 'Shahid Haghani (NODET) High School',

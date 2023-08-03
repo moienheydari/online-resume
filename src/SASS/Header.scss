@@ -16,7 +16,7 @@
         color: azure;
         cursor: pointer;
         transition: 0.5s;
-        font-size: calc(0.7rem + 1vw);
+        font-size: calc(0.6rem + 1vw);
     }
 
     .head-butt:hover {
@@ -35,9 +35,13 @@
 }
 
 
-@media (max-width: 780px) {
+@media (max-width: 720px) {
     .header {
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: 50px;
+
+        .head-butt {
+            font-size: calc(0.6rem + 1vw);
+        }
     }
 }

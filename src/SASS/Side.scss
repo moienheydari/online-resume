@@ -32,7 +32,7 @@
 }
 
 
-@media (max-width: 780px) {
+@media (max-width: 720px) {
     .side {
         .picture {
             width: 100px;
@@ -61,17 +61,29 @@
 @media (max-width: 530px) {
     .side {
         .name {
+            top: 8px;
             position: absolute;
             left: auto;
             right: 10px;
             transform: translate(0);
-            font-size: 28px;
+            font-size: 26px;
         }
         .social-buttons {
+            top: 35px;
             position: absolute;
             left: auto;
-            right: 7px;
+            right: 29px;
             transform: translate(0);
+            height: 45px;
+            padding: 2px 5px;
+        }
+        .social-button {
+            width: 35px;
+            height: 35px;
+            margin: 0 3px;
+        }
+        .social-buttons svg {
+          height: 17px;
         }
     }
 }
