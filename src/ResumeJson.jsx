@@ -180,5 +180,10 @@ export const resume = {
             time: ['Feb 2021', 'Present'],
             info: ['A non-profit, non-governmental organization that provides financial help to underprivileged families, focusing on cases regarding medical illnesses.', 'More than 150 members.', 'Instagram : @sbmuPhilanthropy', 'Telegram : @sbmuPhilanthropyInfo']
         }
-    ]
+    ],
+    profile: {
+        picLink: 'src/assets/picture.jpg',
+        name: 'S. Moien Heydari', 
+        links: { git: 'https://github.com/moienheydari/', insta: 'https://www.instagram.com/moienheydari/', telegram: 'https://t.me/moienheydari' }
+    }
 };
