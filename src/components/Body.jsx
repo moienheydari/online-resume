@@ -8,6 +8,7 @@ import { Route, Routes, resolvePath } from 'react-router-dom';
 // import Awards from './Pages/Awards';
 // import Extra from './Pages/Extra';
 
+
 export default function Body() {
     const loadtime = 500;
     const Education = lazy(() => fetchLike(loadtime).then(() => import('./Pages/Education')));
